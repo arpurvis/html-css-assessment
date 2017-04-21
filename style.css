@@ -1,0 +1,36 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
+
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.img{
+    align-items: center;
+
+}
+.bars{
+    align-items: center;
+    background-color: #F7F7F7;
+    color: #848484;
+    
+}
+.search{
+    align-items: center;
+    background-color: #F7F7F7;
+    color: #848484;
+}
+#div1{
+    display: flex;
+}
+#date{
+     align-items: center;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    word-spacing: 20px;
+}
