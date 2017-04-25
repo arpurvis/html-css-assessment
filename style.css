@@ -2,14 +2,14 @@
     }
 body{
         width: auto;
+        font-family: Arial, sans-serif;
 }
-
 .div{
     display: flex;
     justify-content: space-between;
     height: 40px;
     padding: 5px;
-    border: .667px;
+    border: .5px;
     border-bottom: solid;
     border-bottom-color: #f7f7f7;
 
@@ -18,7 +18,7 @@ body{
     align-items: center;
     height: 28px;
     width: 184px;
-    padding: 9px 10px 3px 10px;
+    padding: 10px 10px;
 
 }
 .bars{
@@ -26,49 +26,97 @@ body{
     display: flex;
     justify-content:center;
     height: 30px;
-    width: 35.33px;
+    width: 35px;
     align-items: center;
     background-color: #F7F7F7;
     color: #848484;
-    border: .667px solid;
+    border: .5px solid;
     border-color: #ebebeb;
 }
-
 .search{
     margin-right: 15px;
     display: flex;
     justify-content:center;
     height: 30px;
-    width: 35.33px;
+    width: 35px;
     align-items: center;
     background-color: #F7F7F7;
     color: #848484;
-    border: .667px solid;
+    border: .5px solid;
     border-color: #ebebeb;
 }
 .div1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 20.667px;
-    
-    padding: 10px 15px 10px 15px;
-    border:  .667px;
-    font-family: Arial, sans-serif;
-    
+    height: 21px;
+    margin-top: -20px;
+    padding: 10px 15px;
+    border:  .5px;
 }
-
+.date{
+    
+    margin-left: -10px;
+}
 .right{
     display: flex;
     text-align: right;
-    color: #507897;
 }
-
+a{
+    text-decoration: none;
+}
+.blue{
+    color: #326891;
+}
 li{
     display: inline;
     list-style-type: none;
-    word-spacing: 20px;
+    padding-left: 10px;
+    
+}
+#subscribe{
+    border-right: .5px solid;
+    padding-right: 10px;
+    
+}
+h1{
+    margin-bottom: -20px;
+}
+
+h3{
+    color: #848484;
+   
+   
+}
+
+.line{
+    background-color: #848484;
+    margin-top: 20px;
+    height: 10px;
+
+}
+.div3{
+    display: flex;
+    align-items: center;
 }
 img{
-    width: auto;
+    padding-left: 30px;
 }
+
+i{
+    color: #326891;
+    font-stretch: ultra-expanded;
+    width: 37px;
+    height: 37px;
+    
+}
+
+
+
+
+
+
+
+
+
+
