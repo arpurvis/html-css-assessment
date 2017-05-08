@@ -3,45 +3,49 @@
 body{
         width: auto;
         font-family: Arial, sans-serif;
+        margin: 0;
 }
 .div{
     display: flex;
     justify-content: space-between;
-    height: 40px;
-    padding: 5px;
-    border: .5px;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: solid;
     border-bottom-color: #f7f7f7;
 
 }
 .img{
+    display: flex;
     align-items: center;
-    height: 28px;
-    width: 184px;
-    padding: 10px 10px ;
-
+    height: 35px;
+    width: 194px;
+    padding: 10px ;
 }
 .bars{
-    margin-left: 15px;
+    margin-left: 5px;
     display: flex;
-    height: 30px;
+    height: 35px;
     width: 35px;
     align-items: center;
     background-color: #F7F7F7;
     color: #848484;
-    border: .5px solid;
+    border:  solid;
     border-color: #ebebeb;
+    padding: 5px;
+    font-weight: 600;
 }
 .search{
-    margin-right: 15px;
+    margin-right: 5px;
     display: flex;
-    height: 30px;
+    height: 35px;
     width: 35px;
     align-items: center;
     background-color: #F7F7F7;
     color: #848484;
     border: .5px solid;
     border-color: #ebebeb;
+    padding: 5px;
 }
 .div1{
     display: flex;
@@ -50,8 +54,6 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     height: 21px;
-
-    border:  .5px;
 }
 .time{
     display: flex;
@@ -59,17 +61,18 @@ body{
     align-items: center;
     height: 21px;
     margin-top: -20px;
-    padding: 10px 15px;
-    border:  .5px;
+    
+    
     
 }
 .date{
     
-    margin-left: 15px;
+    margin-left: 5px;
 }
 .right{
     display: flex;
     text-align: right;
+    margin-right: 5px;
 }
 a{
     text-decoration: none;
